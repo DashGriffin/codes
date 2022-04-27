@@ -1,0 +1,227 @@
+<!---====== WORLDBUILDER CODE BY DASHGRIFFIN ====--->
+<!--- Good Evening! This code has a simple TOS. You are allowed to use it, frankenstein it, and share it- but keep my credits on it, and do not claim it as your own code! 
+Do not use WYSIWYG With this code- It will break! It is written entirely in bootstrap, for bootstrap, and should be generally friendly across all devices. I cannot guarantee this if you add more components to the code.
+If you have questions about using this code, I recommend examining AviCode's guides for a basic understanding of how bootstrap works- I am not equipped enough to teach you! 
+If you want more sections, make a copy of the overview section and move it in between section markers. Rename the a href=#overview to something UNIQUE (not sec1/sec2/etc) and then do the same where the content section says div id="overview". They must match to work! 
+If you want less sections, it should be relatively easy to delete them- delete the sections from start to end. All of them are labeled, and I would recommend continuing to label them if you add more!-->
+
+<!--- Worldbuilder code start--->
+<!--Border-->
+<div class="card bg-faded">
+  <div class="card bg-faded p-2 rounded-0">
+<!---Overview Section -->
+<div class="card rounded-0">
+  <!--Button-->
+    <div class="card bg-muted p-0">
+  <a href=#overview data-toggle=collapse class="btn btn-block border-0 p-3 rounded-0 bg-faded">OVERVIEW</a>
+  </div>
+  <!--Content-->
+  <div id="overview" class="collapse text-center">
+    <p>
+      Paragraph 1
+    </p>
+  </div><!---End of content-->
+</div>
+<!--End of Overview-->
+
+<!--- section 1 VOCABULARY--->
+    <div class="card rounded-0">
+ <!--- Button --->
+  <div class="card bg-muted p-0">
+  <a href=#sec1 data-toggle=collapse class="btn btn-block border-0 p-3 rounded-0 bg-faded">VOCABULARY</a>
+  </div>
+      <!--- Content --->
+      <div id="sec1" class="collapse">
+        <!---Vocabulary List-->
+        <ul>
+          <li>Word: Definition</li>
+          <li>Word: Definition</li>
+          <li>Word: Definition</li>
+          <li>Word: Definition</li>
+          <li>Word: Definition</li>
+          <li>Word: Definition</li>
+        </ul>
+        
+      </div><!---end of content -->
+    </div>
+<!---End of vocabulary section--->
+
+<!--- section 2 SOCIETY--->
+    <div class="card rounded-0">
+   <!--- Button --->
+    <div class="card bg-muted p-0">
+       <a href=#sec2 data-toggle=collapse class="btn btn-block border-0 p-3 rounded-0 bg-faded">SOCIETY</a>
+    </div>
+    <!--- Content --->
+    <div id="sec2" class="collapse text-center">
+      <div class="card bg-faded p-1 text-center"><h4>General</h4></div>
+        <p>
+         PARAGRAPH 1 
+       </p>
+  
+      <div class="card bg-faded p-1 text-center"><h4>Gender</h4></div>
+        <p>
+           PARAGRAPH 1
+        </p>
+  
+      <div class="card bg-faded p-1 text-center"><h4>Relationships</h4></div>
+         <p>
+            PARAGRAPH 1
+         </p>
+  
+    </div><!---End of Content --->
+    </div>
+<!---End of Section 2 -->
+
+<!--- section 3 RELIGION--->
+    <div class="card rounded-0">
+         <!--- Button --->
+    <div class="card bg-muted p-0">
+       <a href=#sec3 data-toggle=collapse class="btn btn-block border-0 p-3 rounded-0 bg-faded">RELIGION</a>
+    </div>
+      <!--- Content --->
+    <div id="sec3" class="collapse text-center">
+        <p>
+           Overview paragraph
+        </p>
+      <!--- Religion 1 Header --->  
+  <div class="card bg-faded p-1 text-center"><h4 style="font:times">Religion 1</h4></div>
+        <!---Crest--->
+       <p class="text-center">
+        <img src="https://archwaycicero.greatheartsamerica.org/wp-content/uploads/sites/24/2016/11/default-placeholder-250x250.png"></img>
+        </p>
+        <!---List of tenements/core values--->
+        <ul class="list-group list-group-flush text-muted" style="overflow:auto;">
+            <li>Core value</li>
+            <li>Core value</li>
+            <li>Core value</li>
+            <li>Core value</li>
+            <li>Core value</li>
+        </ul>
+        
+      </div><!---End of Content --->
+    </div><!---End of Section 3 -->
+
+<!--- section 4 --->
+    <div class="card rounded-0">
+<!---Button-->
+  <div class="card bg-muted p-0">
+    <a href=#sec4 data-toggle=collapse class="btn btn-block border-0 p-3 rounded-0 bg-faded">GEOGRAPHY/SETTLEMENT</a>
+  </div>
+<!---Content-->  
+  <div id="sec4" class="collapse text-center">
+   <!---Place 1--->
+     <div class="card bg-faded p-1 text-center"><h4>PLACE 1</h4></div>
+      <!---Map or Image -->
+        <img src="https://archwaycicero.greatheartsamerica.org/wp-content/uploads/sites/24/2016/11/default-placeholder-250x250.png"></img>
+          <p>
+          Paragraph 1
+          </p>
+    <!---Place 2-->
+        <div class="card bg-faded p-1 text-center"><h4>PLACE 2</h4></div>
+      <!---Map or Image-->
+        <img src="https://archwaycicero.greatheartsamerica.org/wp-content/uploads/sites/24/2016/11/default-placeholder-250x250.png"></img>
+          <p>
+           Paragraph 1
+          </p>
+          
+</div><!---End of content-->
+</div>
+<!--End of section 4--->
+
+<!--- section 5 Politics/Power --->
+    <div class="card rounded-0">
+<div class="card bg-muted p-0">
+  <a href=#sec5 data-toggle=collapse class="btn btn-block border-0 p-3 rounded-0 bg-faded">POLITICS/POWER</a>
+  </div>
+<div id="sec5" class="collapse text-center">
+
+        <p>
+          Overview paragraph
+        </p>
+
+          <div class="card bg-faded p-1 text-center"><h4>Header 1</h4></div>
+        <p>
+          Paragraph 1
+        </p>
+        
+</div><!---End of content-->
+</div>
+<!---End of Section 5-->
+
+<!---Section 6 Technology-->
+<div class="card rounded-0">
+  <!--Button-->
+    <div class="card bg-muted p-0">
+  <a href=#sec6 data-toggle=collapse class="btn btn-block border-0 p-3 rounded-0 bg-faded">TECHNOLOGY</a>
+  </div>
+  <!--Content-->
+  <div id="sec6" class="collapse">
+        <p>
+          Overview
+        </p>
+        
+        <div class="card bg-faded p-1 text-center"><h4>HEADER 1</h4></div>
+        <p>
+          Paragraph 1
+        </p>
+  </div><!---End of content-->
+</div>
+<!--End of Overview-->
+
+<!--- section 7 Anatomy --->
+<div class="card rounded-0">
+  <!---Button-->
+  <div class="card bg-muted p-0">
+  <a href=#sec7 data-toggle=collapse class="btn btn-block border-0 p-3 rounded-0 bg-faded">ANATOMY</a>
+  </div>
+  <!---Content-->
+  <div id="sec7" class="collapse text-center">
+  <!--OVerview Header-->  
+  <div class="card bg-faded p-1 text-center"><h4>OVERVIEW</h4></div>
+  <!--Spoilered image button-->
+         <a href=#visual data-toggle=collapse class="btn btn-block border-0 p-3 rounded-0 bg-muted">
+           Spoilered Image 1
+         </a>
+  <!---Spoilered image -->       
+  <div id="visual" class="collapse text-center">
+    <img src="https://archwaycicero.greatheartsamerica.org/wp-content/uploads/sites/24/2016/11/default-placeholder.png"></img></p>
+    </div>
+    <!---Overview paragraph-->
+    <p>
+      Domexon are a species that can best be described as mammalian and insectoid. Domexon are not segmented, but they possess a life cycle similar to many insects, having four stages of growth. They typically have skin covered in very short fur, but they may have longer hair/fur.
+      </p>
+   <!---Other sections--->
+        <div class="card bg-faded p-1 text-center"><h4>REPRODUCTION</h4></div>
+        <p>
+          Paragraph 1
+        </p>
+        <div class="card bg-faded p-1 text-center"><h4>HEAD</h4></div>
+        <p>
+          Paragraph 1
+        </p>
+          <div class="card bg-faded p-1 text-center"><h4>BODY</h4></div>
+         <p>
+           Paragraph 1
+         </p>
+          <div class="card bg-faded p-1 text-center"><h4>ARMS/LEGS</h4></div>
+          <p>
+            Paragraph 1
+          </p>
+          <div class="card bg-faded p-1 text-center"><h4>TAIL</h4></div>
+          <p>
+              Paragraph 1
+          </p>
+           <div class="card bg-faded p-1 text-center"><h4>EXTRA</h4></div>
+           <p>
+             Paragraph 1
+           </p>
+  </div><!--end of content-->
+</div><!--end of section 6-->
+
+</div>
+</div>
+  <p class="text-muted pull-right"><a href="https://toyhou.se/6604555.code-storage/15861833.worldbuilder">
+  <i class="fas fa-shrimp tooltipster" title="code by DashGriffin"></i></p>
+<!--Border-->
+<!--Code end-->
