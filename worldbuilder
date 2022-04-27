@@ -154,7 +154,7 @@ If you want less sections, it should be relatively easy to delete them- delete t
 <div class="card rounded-0">
   <!--Button-->
     <div class="card bg-muted p-0">
-  <a href=#sec6 data-toggle=collapse class="btn btn-block border-0 p-3 rounded-0 bg-faded">TECHNOLOGY</a>
+  <a href=#sec6 data-toggle=collapse class="btn btn-block border-0 p-3 rounded-0 bg-faded">ECONOMICS/TECHNOLOGY</a>
   </div>
   <!--Content-->
   <div id="sec6" class="collapse text-center">
