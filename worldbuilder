@@ -16,9 +16,10 @@ If you want less sections, it should be relatively easy to delete them- delete t
   <a href=#overview data-toggle=collapse class="btn btn-block border-0 p-3 rounded-0 bg-faded">OVERVIEW</a>
   </div>
   <!--Content-->
-  <div id="overview" class="collapse text-center">
+  <div id="overview" class="collapse show text-center">
+    <!-- To make it not show, remove 'show' from the class="" statement.-->
     <p>
-      Paragraph 1
+      Paragraph 1. This section will show when you first load the page.
     </p>
   </div><!---End of content-->
 </div>
@@ -156,7 +157,7 @@ If you want less sections, it should be relatively easy to delete them- delete t
   <a href=#sec6 data-toggle=collapse class="btn btn-block border-0 p-3 rounded-0 bg-faded">TECHNOLOGY</a>
   </div>
   <!--Content-->
-  <div id="sec6" class="collapse">
+  <div id="sec6" class="collapse text-center">
         <p>
           Overview
         </p>
@@ -222,6 +223,6 @@ If you want less sections, it should be relatively easy to delete them- delete t
 </div>
 </div>
   <p class="text-muted pull-right"><a href="https://toyhou.se/6604555.code-storage/15861833.worldbuilder">
-  <i class="fas fa-shrimp tooltipster" title="code by DashGriffin"></i></p>
+  <i class="fas fa-shrimp tooltipster" title="Code by DashGriffin"></i></a></p>
 <!--Border-->
 <!--Code end-->
