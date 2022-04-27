@@ -1,7 +1,7 @@
 <!---====== WORLDBUILDER CODE BY DASHGRIFFIN ====--->
 <!--- Good Evening! This code has a simple TOS. You are allowed to use it, frankenstein it, and share it- but keep my credits on it, and do not claim it as your own code! 
 Do not use WYSIWYG With this code- It will break! It is written entirely in bootstrap, for bootstrap, and should be generally friendly across all devices. I cannot guarantee this if you add more components to the code.
-If you have questions about using this code, I recommend examining AviCode's guides for a basic understanding of how bootstrap works- I am not equipped enough to teach you! 
+If you have questions about using this code, I recommend examining Auroreans's guides for a basic understanding of how bootstrap works- I am not equipped enough to teach you! 
 If you want more sections, make a copy of the overview section and move it in between section markers. Rename the a href=#overview to something UNIQUE (not sec1/sec2/etc) and then do the same where the content section says div id="overview". They must match to work! 
 If you want less sections, it should be relatively easy to delete them- delete the sections from start to end. All of them are labeled, and I would recommend continuing to label them if you add more!-->
 
