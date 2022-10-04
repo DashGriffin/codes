@@ -60,7 +60,7 @@
     
     <p class="text-muted text-center">
       
-          Text. This portion will scroll as it is filled. This is the version where you can input any hexcode for the title/name portion. Otherwise, both are the same.
+          Text. This portion will scroll as it is filled. You can input any color hexcode for the title/name portion. Otherwise, this code is bootstrap.
     </p>
     <!--end text box-->
     
