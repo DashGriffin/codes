@@ -1,0 +1,88 @@
+<div>
+  <!--To copy paste this easily, collapse the code using the div above!-->
+  <!--Code rules
+  Turn off WSIWYG to edit this code!
+  You may: 
+  Edit, redistribute WITH CREDIT! Don't claim it as your own basically.
+  If you have questions regarding how to edit codes, look at Aurorean's guides for help + the forums!
+  -->
+  <!--Start code-->
+<div class="card bg-faded p-2">
+  <div class="card p-1">
+    <!--name card. Edit color here.
+    To replace with bootstrap colors, add 'text-primary' inside the div class statement, and remove the entire 'style="color:000000"' statement.
+    -->
+  <div class="card text-center row no-gutters bg-faded p-2" style="color:#000000">
+    
+    <!--name card. Edit text and symbols here-->
+    
+    <h1>
+    <i class="fas fa-star"></i>
+        NAME
+    <i class="fas fa-star"></i>
+      </h1>
+    <!--end name card text-->
+    
+  </div>
+  <!--end name card section-->
+  <!--begin text box-->
+  <div class="row no-gutters">
+    <!--left side-->
+    <div class="col-md-6">
+      <!-- left image here -->
+       <img src=
+        "
+        
+        https://f2.toyhou.se/file/f2-toyhou-se/images/52245719_MJH3A4FwQBJJb47.png
+        
+        " 
+        class= "fr-fic fr-dib" style="max-height:300px;"></img>
+      <!-- end image -->
+  </div>
+  <!--end left side-->
+  <!--right side-->
+  <div class="col-md-6">
+    <div class="card border-0" style="height:300px; overflow:auto;">
+      <!--right image here-->
+      <img src=
+            "
+    
+              https://f2.toyhou.se/file/f2-toyhou-se/images/47958758_6waqJKUiFOV29Ac.jpg?1657587138   
+    
+            " 
+      class="fr-fic fr-dib" style="height:200px;"></img>
+    <!-- end right image-->
+    
+    <!-- text box. 
+    Add 
+    <p class="text-muted text-center">Text</p>
+    for more paragraphs
+    -->
+    
+    <p class="text-muted text-center">
+      
+          Text. This portion will scroll as it is filled. This is the version where you can input any hexcode for the title/name portion. Otherwise, both are the same.
+    </p>
+    <!--end text box-->
+    
+    <!--quote box. You can delete this section if you want-->
+    <p class="text-muted text-center">
+      <i>
+      "
+        Quote
+      "
+      </i>
+    </p>
+    <!--end quote box-->
+    </div>
+    <!--end right side scroll-->
+    </div>
+    <!--end box--->
+    </div>
+    <!--end border-->
+  </div>
+    <!--end code-->
+
+</div>
+      <p class="text-muted pull-right"><a href="https://toyhou.se/6604555.code-storage/18267763.mini-code"><i class="fas fa-shrimp tooltipster" title="Code by DashGriffin"></i></a></p>
+</div>
