@@ -1,0 +1,44 @@
+<!-- Short and sweet code, you don't even have to credit. Just don't claim as your own :)-->
+<div class="row no-gutters">
+  <!-- Image. Paste link where # is. Works best with squares -->
+<div class="col-md-3 p-0">
+<div class="card rounded-0 border-0 shadow h-100" style="min-height: 250px;
+  background: url(
+  
+  https://f2.toyhou.se/file/f2-toyhou-se/characters/18779981?1668050209
+  
+  ) center no-repeat; background-size: cover;"></div>
+</div>
+<!-- End Image-->
+<!-- Start Card -->
+<div class="col-md-9 p-0 ">
+  <!--Start text box-->
+<div class="card rounded-0 bg-faded text-center border-0 p-2" style="min-height: 250px;">
+  <h1 class="text-primary"><i class="fas fa-star"></i>  NAME  <i class="fas fa-star"></i></h1>
+  <div class="p-2">
+      <h3 class="text-muted"> Age - Species/Race - Gender - Orientation </h3>
+      <div class="card"></div>
+      <br>
+  <p class="text-muted">Paragraph 1. This text box stretches. The minimum text I would recommend for computers is two lines in the first /p. It's a simpler code without set size besides minimum 250px, but you can edit that.</p>
+  <p class="text-muted">Paragraph 2. So you can write whatever. You can also change the links to whatever you want.</p>
+  </div>
+  <br>
+<!-- Buttons.  Paste links where # are-->
+  <div class="row no-gutters">
+    <div class="col-3"><a class="btn btn-primary btn-block " href="#">Reference</a></div>
+    <div class="col-3"><a class="btn btn-info btn-block " href="#">Comics</a></div>
+    <div class="col-3"><a class="btn btn-warning btn-block " href="#">Doodles</a></div>
+    <!--Playlist. Link any web playlist here, though it takes you to the link instead of being an embed.-->
+    <div class="col-3"><a class="btn btn-success btn-block " href="#"><i class="fas fa-music"></i></a></div>
+  </div>
+  <!--End buttons-->
+</div>
+<!--End text box-->
+</div>
+<!--End card-->
+</div>
+<!--End code-->
+<!--Credit link (delete if you want)-->
+<p class="text small pull-right"><a href="https://toyhou.se/6604555.code-storage/18779981.oc-snippet">
+  <i class="fas fa-paw tooltipster" title="Layout by OsiranCodes"></i></p>
+  <!--End credit link-->
