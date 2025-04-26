@@ -1,0 +1,466 @@
+<!---
+==== peony custom
+==== HTML by 8byte
+----
+==== Colors
+---- For easier changes, use Ctrl F and then
+---- click the plus icon at the bottom to 
+---- replace all.
+====
+#f8e8ee - background
+#f9f5f6 - box background
+#fdcedf - highlight
+#c88ea7 - main accent
+#403c3d - text
+#615c5d - lighter text
+--->
+<div class="mx-auto" style="max-width: 900px;">
+  <div style="background: #f8e8ee; color: #403c3d; box-shadow: 0 0 3px rgba(0,0,0,0.3);" class="p-3">
+    <ul class="nav nav-fill">
+      <li class="nav-item justify-content-center align-items-center p-0" style="background: #c88ea7; position: relative;"><i class="far fa-heart fa-fw" style="color: #f9f5f6; position: absolute;"></i><a href="#ONE" data-toggle="tab" class="nav-link active btn btn-outline-primary rounded-0 border-0 py-3 w-100" style="position: relative; mix-blend-mode: luminosity; opacity: .3;"></a></li>
+      <li class="nav-item justify-content-center align-items-center p-0" style="background: #c88ea7; position: relative;"><i class="far fa-palette fa-fw" style="color: #f9f5f6; position: absolute;"></i><a href="#TWO" data-toggle="tab" class="nav-link btn btn-outline-primary rounded-0 border-0 py-3 w-100" style="position: relative; mix-blend-mode: luminosity; opacity: .3;"></a></li>
+      <li class="nav-item justify-content-center align-items-center p-0" style="background: #c88ea7; position: relative;"><i class="far fa-star fa-fw" style="color: #f9f5f6; position: absolute;"></i><a href="#THREE" data-toggle="tab" class="nav-link btn btn-outline-primary rounded-0 border-0 py-3 w-100" style="position: relative; mix-blend-mode: luminosity; opacity: .3;"></a></li>
+      <li class="nav-item justify-content-center align-items-center p-0" style="background: #c88ea7; position: relative;"><i class="far fa-pencil fa-fw" style="color: #f9f5f6; position: absolute;"></i><a href="#FOUR" data-toggle="tab" class="nav-link btn btn-outline-primary rounded-0 border-0 py-3 w-100" style="position: relative; mix-blend-mode: luminosity; opacity: .3;"></a></li>
+      <li class="nav-item justify-content-center align-items-center p-0" style="background: #c88ea7; position: relative;"><i class="far fa-book fa-fw" style="color: #f9f5f6; position: absolute;"></i><a href="#FIVE" data-toggle="tab" class="nav-link btn btn-outline-primary rounded-0 border-0 py-3 w-100" style="position: relative; mix-blend-mode: luminosity; opacity: .3;"></a></li>
+      <li class="nav-item justify-content-center align-items-center p-0" style="background: #c88ea7; position: relative;"><i class="far fa-person fa-fw" style="color: #f9f5f6; position: absolute;"></i><a href="#SIX" data-toggle="tab" class="nav-link btn btn-outline-primary rounded-0 border-0 py-3 w-100" style="position: relative; mix-blend-mode: luminosity; opacity: .3;"></a></li>
+    </ul>
+    <div class="p-2"></div>
+    <div class="row no-gutters m-n2">
+      <div class="col-md-3 flex-column p-2">
+        <!--- left side image --->
+        <div style="background-image: url('IMGURL'); background-size: cover; background-position: center; min-height: 350px; box-shadow: .5rem .5rem #c88ea7;" class="bg-dark flex-fill"></div>
+        <div class="mb-1"></div>
+      </div>
+      <div class="col-md-9 p-2">
+        <div class="tab-content">
+          <!--- tab one --->
+          <div class="tab-pane active" id="ONE">
+            <div class="p-2" style="background: #f9f5f6; border: 1px solid #c88ea7;">
+              <div class="flex-column" style="height: 400px;">
+                <div class="row no-gutters mx-n1">
+                  <!--- basic info --->
+                  <div class="col-6 px-1">
+                    <div style="position: relative; padding-left: 5px;">
+                      <div style="position: absolute; top: 10px; left: 0; width: 100%; background: #fdcedf; height: 12px;"></div>
+                      <h3 class="font-italic font-weight-bold mb-0" style="color: #c88ea7; font-variant: small-caps; letter-spacing: .5px; position: relative; z-index: 1;">Name</h3>
+                      <!--- content --->
+                      <div class="text-right">content</div>
+                    </div>
+                  </div>
+                  <!--- basic info --->
+                  <div class="col-6 px-1">
+                    <div style="position: relative; padding-left: 5px;">
+                      <div style="position: absolute; top: 10px; left: 0; width: 100%; background: #fdcedf; height: 12px;"></div>
+                      <h3 class="font-italic font-weight-bold mb-0" style="color: #c88ea7; font-variant: small-caps; letter-spacing: .5px; position: relative; z-index: 1;">Gender</h3>
+                      <!--- content --->
+                      <div class="text-right">content</div>
+                    </div>
+                  </div>
+                  <!--- basic info --->
+                  <div class="col-6 px-1">
+                    <div style="position: relative; padding-left: 5px;">
+                      <div style="position: absolute; top: 10px; left: 0; width: 100%; background: #fdcedf; height: 12px;"></div>
+                      <h3 class="font-italic font-weight-bold mb-0" style="color: #c88ea7; font-variant: small-caps; letter-spacing: .5px; position: relative; z-index: 1;">Age</h3>
+                      <!--- content --->
+                      <div class="text-right">content</div>
+                    </div>
+                  </div>
+                  <!--- basic info --->
+                  <div class="col-6 px-1">
+                    <div style="position: relative; padding-left: 5px;">
+                      <div style="position: absolute; top: 10px; left: 0; width: 100%; background: #fdcedf; height: 12px;"></div>
+                      <h3 class="font-italic font-weight-bold mb-0" style="color: #c88ea7; font-variant: small-caps; letter-spacing: .5px; position: relative; z-index: 1;">Orientation</h3>
+                      <!--- content --->
+                      <div class="text-right">content</div>
+                    </div>
+                  </div>
+                  <!--- basic info --->
+                  <div class="col-6 px-1">
+                    <div style="position: relative; padding-left: 5px;">
+                      <div style="position: absolute; top: 10px; left: 0; width: 100%; background: #fdcedf; height: 12px;"></div>
+                      <h3 class="font-italic font-weight-bold mb-0" style="color: #c88ea7; font-variant: small-caps; letter-spacing: .5px; position: relative; z-index: 1;">Ethnicity</h3>
+                      <!--- content --->
+                      <div class="text-right">content</div>
+                    </div>
+                  </div>
+                  <!--- basic info --->
+                  <div class="col-6 px-1">
+                    <div style="position: relative; padding-left: 5px;">
+                      <div style="position: absolute; top: 10px; left: 0; width: 100%; background: #fdcedf; height: 12px;"></div>
+                      <h3 class="font-italic font-weight-bold mb-0" style="color: #c88ea7; font-variant: small-caps; letter-spacing: .5px; position: relative; z-index: 1;">DoB</h3>
+                      <!--- content --->
+                      <div class="text-right">content</div>
+                    </div>
+                  </div>
+                  <!--- end of basic info --->
+                </div>
+                <div class="p-1"></div>
+                <!--- quote box --->
+                <div class="px-3 py-2 text-center justify-content-between align-items-center" style="background: #fdcedf; border-radius: 5px;">
+                  <i class="fas fa-quote-left mr-2" style="color: #f9f5f6;"></i>
+                  <span class="font-weight-bold font-italic" style="letter-spacing: .5px;">
+                    <!--- quote --->
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </span>
+                  <i class="fas fa-quote-right ml-2" style="color: #f9f5f6;"></i>
+                </div>
+                <!--- divider ---><hr class="my-2 w-100" style="border-top: 2px dotted #fdcedf;" />
+                <div class="row no-gutters m-n1">
+                  <!--- stat --->
+                  <div class="col-md-6 justify-content-between align-items-center p-1">
+                    <!--- stat name --->
+                    <strong style="font-variant: small-caps; color: #615c5d;">Athletics</strong>
+                    <span>
+                      <!--- heart stat indicators --->
+                      <i class="fas fa-heart fa-fw ml-1" style="color: #c88ea7;"></i>
+                      <i class="fas fa-heart fa-fw ml-1" style="color: #c88ea7;"></i>
+                      <i class="fas fa-heart fa-fw ml-1" style="color: #c88ea7;"></i>
+                      <i class="far fa-heart fa-fw ml-1" style="color: #c88ea7;"></i>
+                      <i class="far fa-heart fa-fw ml-1" style="color: #c88ea7;"></i>
+                    </span>
+                  </div>
+                  <!--- stat --->
+                  <div class="col-md-6 justify-content-between align-items-center p-1">
+                    <!--- stat name --->
+                    <strong style="font-variant: small-caps; color: #615c5d;">Charm</strong>
+                    <span>
+                      <!--- heart stat indicators --->
+                      <i class="fas fa-heart fa-fw ml-1" style="color: #c88ea7;"></i>
+                      <i class="fas fa-heart fa-fw ml-1" style="color: #c88ea7;"></i>
+                      <i class="fas fa-heart fa-fw ml-1" style="color: #c88ea7;"></i>
+                      <i class="far fa-heart fa-fw ml-1" style="color: #c88ea7;"></i>
+                      <i class="far fa-heart fa-fw ml-1" style="color: #c88ea7;"></i>
+                    </span>
+                  </div>
+                  <!--- stat --->
+                  <div class="col-md-6 justify-content-between align-items-center p-1">
+                    <!--- stat name --->
+                    <strong style="font-variant: small-caps; color: #615c5d;">Smarts</strong>
+                    <span>
+                      <!--- heart stat indicators --->
+                      <i class="fas fa-heart fa-fw ml-1" style="color: #c88ea7;"></i>
+                      <i class="fas fa-heart fa-fw ml-1" style="color: #c88ea7;"></i>
+                      <i class="fas fa-heart fa-fw ml-1" style="color: #c88ea7;"></i>
+                      <i class="far fa-heart fa-fw ml-1" style="color: #c88ea7;"></i>
+                      <i class="far fa-heart fa-fw ml-1" style="color: #c88ea7;"></i>
+                    </span>
+                  </div>
+                  <!--- stat --->
+                  <div class="col-md-6 justify-content-between align-items-center p-1">
+                    <!--- stat name --->
+                    <strong style="font-variant: small-caps; color: #615c5d;">Empathy</strong>
+                    <span>
+                      <!--- heart stat indicators --->
+                      <i class="fas fa-heart fa-fw ml-1" style="color: #c88ea7;"></i>
+                      <i class="fas fa-heart fa-fw ml-1" style="color: #c88ea7;"></i>
+                      <i class="fas fa-heart fa-fw ml-1" style="color: #c88ea7;"></i>
+                      <i class="far fa-heart fa-fw ml-1" style="color: #c88ea7;"></i>
+                      <i class="far fa-heart fa-fw ml-1" style="color: #c88ea7;"></i>
+                    </span>
+                  </div>
+                  <!--- end of stats --->
+                </div>
+                <div class="overflow-auto mt-1">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eleifend tortor id odio porta cursus. Proin consectetur metus id dolor pharetra, a sollicitudin felis pharetra. In hac habitasse platea dictumst. Nam tempor placerat mattis. Etiam euismod elit quis aliquam vulputate. Sed mattis arcu sem, eget ullamcorper velit dignissim semper. Aenean quis tellus egestas, condimentum sapien sed, viverra lacus. Quisque in turpis purus. Aliquam sit amet neque lectus. Maecenas ultricies dui in dolor congue finibus. Curabitur ut magna posuere, sagittis lacus quis, sodales enim. Sed ut purus lorem. Sed pellentesque tortor at mauris commodo, at laoreet risus euismod. Sed porttitor dictum tristique. Donec vitae viverra massa. Praesent id est at quam ultricies posuere et non nisi.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--- tab two --->
+          <div class="tab-pane" id="TWO">
+            <div class="p-2" style="background: #f9f5f6; border: 1px solid #c88ea7;">
+              <div style="height: 400px; overflow-y: auto; overflow-x: hidden;">
+                <div class="row no-gutters mx-n1">
+                  <!--- design info --->
+                  <div class="col-6 px-1">
+                    <div style="position: relative; padding-left: 5px;">
+                      <div style="position: absolute; top: 10px; left: 0; width: 100%; background: #fdcedf; height: 12px;"></div>
+                      <h3 class="font-italic font-weight-bold mb-0" style="color: #c88ea7; font-variant: small-caps; letter-spacing: .5px; position: relative; z-index: 1;">Height</h3>
+                      <!--- content --->
+                      <div class="text-right">00'00"</div>
+                    </div>
+                  </div>
+                  <!--- design info --->
+                  <div class="col-6 px-1">
+                    <div style="position: relative; padding-left: 5px;">
+                      <div style="position: absolute; top: 10px; left: 0; width: 100%; background: #fdcedf; height: 12px;"></div>
+                      <h3 class="font-italic font-weight-bold mb-0" style="color: #c88ea7; font-variant: small-caps; letter-spacing: .5px; position: relative; z-index: 1;">Weight</h3>
+                      <!--- content --->
+                      <div class="text-right">00lbs</div>
+                    </div>
+                  </div>
+                  <!--- design info --->
+                  <div class="col-6 px-1">
+                    <div style="position: relative; padding-left: 5px;">
+                      <div style="position: absolute; top: 10px; left: 0; width: 100%; background: #fdcedf; height: 12px;"></div>
+                      <h3 class="font-italic font-weight-bold mb-0" style="color: #c88ea7; font-variant: small-caps; letter-spacing: .5px; position: relative; z-index: 1;">Hairstyle</h3>
+                      <!--- content --->
+                      <div class="text-right">content</div>
+                    </div>
+                  </div>
+                  <!--- design info --->
+                  <div class="col-6 px-1">
+                    <div style="position: relative; padding-left: 5px;">
+                      <div style="position: absolute; top: 10px; left: 0; width: 100%; background: #fdcedf; height: 12px;"></div>
+                      <h3 class="font-italic font-weight-bold mb-0" style="color: #c88ea7; font-variant: small-caps; letter-spacing: .5px; position: relative; z-index: 1;">Eye Shape</h3>
+                      <!--- content --->
+                      <div class="text-right">content</div>
+                    </div>
+                  </div>
+                  <!--- design info --->
+                  <div class="col-6 px-1">
+                    <div style="position: relative; padding-left: 5px;">
+                      <div style="position: absolute; top: 10px; left: 0; width: 100%; background: #fdcedf; height: 12px;"></div>
+                      <h3 class="font-italic font-weight-bold mb-0" style="color: #c88ea7; font-variant: small-caps; letter-spacing: .5px; position: relative; z-index: 1;">Skin</h3>
+                      <!--- content --->
+                      <div class="text-right">content</div>
+                    </div>
+                  </div>
+                  <!--- design info --->
+                  <div class="col-6 px-1">
+                    <div style="position: relative; padding-left: 5px;">
+                      <div style="position: absolute; top: 10px; left: 0; width: 100%; background: #fdcedf; height: 12px;"></div>
+                      <h3 class="font-italic font-weight-bold mb-0" style="color: #c88ea7; font-variant: small-caps; letter-spacing: .5px; position: relative; z-index: 1;">Body Type</h3>
+                      <!--- content --->
+                      <div class="text-right">content</div>
+                    </div>
+                  </div>
+                  <!--- end of design info --->
+                </div>
+                <div class="p-1"></div>
+                <!--- outfit 1 --->
+                <div class="row no-gutters mx-n1">
+                  <div class="col-md-4 p-1">
+                    <!--- outfit image --->
+                    <div style="background-image: url('IMGURL'); background-size: cover; background-position: center; min-height: 250px;" class="bg-dark"></div>
+                  </div>
+                  <div class="col-md-8 p-1">
+                    <div style="position: relative; padding-left: 5px;">
+                      <div style="position: absolute; top: 10px; left: 0; width: 100%; background: #fdcedf; height: 12px;"></div>
+                      <!--- outfit title --->
+                      <h3 class="font-italic font-weight-bold mb-0" style="color: #c88ea7; font-variant: small-caps; letter-spacing: .5px; position: relative; z-index: 1;">Outfit 1</h3>
+                    </div>
+                    <!--- outfit description --->
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eleifend tortor id odio porta cursus. Proin consectetur metus id dolor pharetra, a sollicitudin felis pharetra. In hac habitasse platea dictumst. Nam tempor placerat mattis. Etiam euismod elit quis aliquam vulputate.</p>
+                  </div>
+                </div>
+                <!--- outfit 2 --->
+                <div class="row no-gutters mx-n1">
+                  <div class="col-md-8 p-1">
+                    <div style="position: relative; padding-left: 5px;">
+                      <div style="position: absolute; top: 10px; left: 0; width: 100%; background: #fdcedf; height: 12px;"></div>
+                      <!--- outfit title --->
+                      <h3 class="font-italic font-weight-bold mb-0" style="color: #c88ea7; font-variant: small-caps; letter-spacing: .5px; position: relative; z-index: 1;">Outfit 2</h3>
+                    </div>
+                    <!--- outfit description --->
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eleifend tortor id odio porta cursus. Proin consectetur metus id dolor pharetra, a sollicitudin felis pharetra. In hac habitasse platea dictumst. Nam tempor placerat mattis. Etiam euismod elit quis aliquam vulputate.</p>
+                  </div>
+                  <div class="col-md-4 p-1">
+                    <!--- outfit image --->
+                    <div style="background-image: url('IMGURL'); background-size: cover; background-position: center; min-height: 250px;" class="bg-dark"></div>
+                  </div>
+                </div>
+                <!--- end of outfits --->
+              </div>
+            </div>
+          </div>
+          <!--- tab three --->
+          <div class="tab-pane" id="THREE">
+            <div class="p-2" style="background: #f9f5f6; border: 1px solid #c88ea7;">
+              <div style="height: 400px; overflow-y: auto; overflow-x: hidden;">
+                <!--- weapon --->
+                <div class="row no-gutters mx-n1">
+                  <div class="col-md-4 p-1">
+                    <!--- weapon image --->
+                    <div style="background-image: url('IMGURL'); background-size: cover; background-position: center; min-height: 100px;" class="bg-dark h-100"></div>
+                  </div>
+                  <div class="col-md-8 p-1">
+                    <div style="position: relative; padding-left: 5px;">
+                      <div style="position: absolute; top: 10px; left: 0; width: 100%; background: #fdcedf; height: 12px;"></div>
+                      <!--- weapon title --->
+                      <h3 class="font-italic font-weight-bold mb-0" style="color: #c88ea7; font-variant: small-caps; letter-spacing: .5px; position: relative; z-index: 1;">Weapon</h3>
+                    </div>
+                    <!--- weapon description --->
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eleifend tortor id odio porta cursus. Proin consectetur metus id dolor pharetra, a sollicitudin felis pharetra. In hac habitasse platea dictumst. Nam tempor placerat mattis.</p>
+                  </div>
+                </div>
+                <!--- end of weapon --->
+                <!--- divider ---><div class="p-1"></div>
+                <!--- ability --->
+                <div style="position: relative; padding-left: 5px;">
+                  <div style="position: absolute; top: 10px; left: 0; width: 100%; background: #fdcedf; height: 12px;"></div>
+                  <!--- ability name --->
+                  <h3 class="font-italic font-weight-bold mb-0" style="color: #c88ea7; font-variant: small-caps; letter-spacing: .5px; position: relative; z-index: 1;">Ability</h3>
+                </div>
+                <!--- ability description --->
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eleifend tortor id odio porta cursus. Proin consectetur metus id dolor pharetra, a sollicitudin felis pharetra. In hac habitasse platea dictumst. Nam tempor placerat mattis. Etiam euismod elit quis aliquam vulputate.</p>
+                <!--- end of ability --->
+                <!--- ability --->
+                <div style="position: relative; padding-left: 5px;">
+                  <div style="position: absolute; top: 10px; left: 0; width: 100%; background: #fdcedf; height: 12px;"></div>
+                  <!--- ability name --->
+                  <h3 class="font-italic font-weight-bold mb-0" style="color: #c88ea7; font-variant: small-caps; letter-spacing: .5px; position: relative; z-index: 1;">Ability</h3>
+                </div>
+                <!--- ability description --->
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eleifend tortor id odio porta cursus. Proin consectetur metus id dolor pharetra, a sollicitudin felis pharetra. In hac habitasse platea dictumst. Nam tempor placerat mattis. Etiam euismod elit quis aliquam vulputate.</p>
+                <!--- end of ability --->
+                <!--- bottom section --->
+                <div class="row no-gutters mx-n1">
+                  <div class="col-md-8 p-1">
+                    <div style="position: relative; padding-left: 5px;">
+                      <div style="position: absolute; top: 10px; left: 0; width: 100%; background: #fdcedf; height: 12px;"></div>
+                      <!--- title --->
+                      <h3 class="font-italic font-weight-bold mb-0" style="color: #c88ea7; font-variant: small-caps; letter-spacing: .5px; position: relative; z-index: 1;">Title</h3>
+                    </div>
+                    <!--- description --->
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eleifend tortor id odio porta cursus. Proin consectetur metus id dolor pharetra, a sollicitudin felis pharetra. In hac habitasse platea dictumst. Nam tempor placerat mattis.</p>
+                  </div>
+                  <div class="col-md-4 p-1">
+                    <!--- image --->
+                    <div style="background-image: url('IMGURL'); background-size: cover; background-position: center; min-height: 100px;" class="bg-dark h-100"></div>
+                  </div>
+                </div>
+                <!--- end of weapon --->
+              </div>
+            </div>
+          </div>
+          <!--- tab four --->
+          <div class="tab-pane" id="FOUR">
+            <div class="p-2" style="background: #f9f5f6; border: 1px solid #c88ea7;">
+              <div class="flex-column" style="height: 400px;">
+                <div class="row no-gutters m-n1">
+                  <!--- likes box --->
+                  <div class="col-md-6 p-1">
+                    <div class="d-flex">
+                      <div class="p-2 mr-2" style="background: #fdcedf;"><i class="far fa-heart fa-fw" style="color: #f9f5f6;"></i></div>
+                      <div class="flex-fill">
+                        <h3 class="font-italic font-weight-bold mb-2" style="color: #c88ea7; font-variant: small-caps; letter-spacing: .5px;">Likes</h3>
+                        <ul class="mb-0 pl-3">
+                          <!--- list of likes --->
+                          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!--- dislikes box --->
+                  <div class="col-md-6 p-1">
+                    <div class="d-flex">
+                      <div class="p-2 mr-2" style="background: #fdcedf;"><i class="far fa-heart-broken fa-fw" style="color: #f9f5f6;"></i></div>
+                      <div class="flex-fill">
+                        <h3 class="font-italic font-weight-bold mb-2" style="color: #c88ea7; font-variant: small-caps; letter-spacing: .5px;">Dislikes</h3>
+                        <ul class="mb-0 pl-3">
+                          <!--- list of dislikes --->
+                          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!--- end of likes and dislikes --->
+                </div>
+                <!--- divider ---><hr class="my-2 w-100" style="border-top: 2px dotted #fdcedf;" />
+                <div style="position: relative; padding-left: 5px;">
+                  <div style="position: absolute; top: 10px; left: 0; width: 100%; background: #fdcedf; height: 12px;"></div>
+                  <h3 class="font-italic font-weight-bold mb-0" style="color: #c88ea7; font-variant: small-caps; letter-spacing: .5px; position: relative; z-index: 1;">Trivia</h3>
+                </div>
+                <div class="overflow-auto p-1">
+                  <ul class="mb-0 pl-3">
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--- tab five --->
+          <div class="tab-pane" id="FIVE">
+            <div class="p-2" style="background: #f9f5f6; border: 1px solid #c88ea7;">
+              <div style="height: 400px; overflow-y: auto; overflow-x: hidden;">
+                <!--- title section --->
+                <div style="position: relative; padding-left: 5px;">
+                  <div style="position: absolute; top: 10px; left: 0; width: 100%; background: #fdcedf; height: 12px;"></div>
+                  <!--- title --->
+                  <h3 class="font-italic font-weight-bold mb-0" style="color: #c88ea7; font-variant: small-caps; letter-spacing: .5px; position: relative; z-index: 1;">Subtitle</h3>
+                </div>
+                <!--- content --->
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eleifend tortor id odio porta cursus. Proin consectetur metus id dolor pharetra, a sollicitudin felis pharetra. In hac habitasse platea dictumst. Nam tempor placerat mattis. Etiam euismod elit quis aliquam vulputate. Sed mattis arcu sem, eget ullamcorper velit dignissim semper. Aenean quis tellus egestas, condimentum sapien sed, viverra lacus. Quisque in turpis purus. Aliquam sit amet neque lectus. Maecenas ultricies dui in dolor congue finibus. Curabitur ut magna posuere, sagittis lacus quis, sodales enim. Sed ut purus lorem. Sed pellentesque tortor at mauris commodo, at laoreet risus euismod. Sed porttitor dictum tristique. Donec vitae viverra massa. Praesent id est at quam ultricies posuere et non nisi.</p>
+                <!--- end of section --->
+                <!--- title section --->
+                <div style="position: relative; padding-left: 5px;">
+                  <div style="position: absolute; top: 10px; left: 0; width: 100%; background: #fdcedf; height: 12px;"></div>
+                  <!--- title --->
+                  <h3 class="font-italic font-weight-bold mb-0" style="color: #c88ea7; font-variant: small-caps; letter-spacing: .5px; position: relative; z-index: 1;">Subtitle</h3>
+                </div>
+                <!--- content --->
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eleifend tortor id odio porta cursus. Proin consectetur metus id dolor pharetra, a sollicitudin felis pharetra. In hac habitasse platea dictumst. Nam tempor placerat mattis. Etiam euismod elit quis aliquam vulputate. Sed mattis arcu sem, eget ullamcorper velit dignissim semper. Aenean quis tellus egestas, condimentum sapien sed, viverra lacus. Quisque in turpis purus. Aliquam sit amet neque lectus. Maecenas ultricies dui in dolor congue finibus. Curabitur ut magna posuere, sagittis lacus quis, sodales enim. Sed ut purus lorem. Sed pellentesque tortor at mauris commodo, at laoreet risus euismod. Sed porttitor dictum tristique. Donec vitae viverra massa. Praesent id est at quam ultricies posuere et non nisi.</p>
+                <!--- end of section --->
+              </div>
+            </div>
+          </div>
+          <!--- tab six --->
+          <div class="tab-pane" id="SIX">
+            <div class="p-2" style="background: #f9f5f6; border: 1px solid #c88ea7;">
+              <div style="height: 400px; overflow-y: auto; overflow-x: hidden;">
+                <!--- relationship --->
+                <div class="row no-gutters m-n1">
+                  <div class="col-md-4 flex-column p-1">
+                    <!--- profile picture --->
+                    <div style="background-image: url('IMGURL'); background-size: cover; background-position: center; width: 120px; height: 120px; border: 2px solid #c88ea7; box-shadow: -.25rem .25rem #fdcedf;" class="mx-auto mt-auto mb-auto rounded-circle bg-dark"></div>
+                  </div>
+                  <div class="col-md-8 p-1">
+                    <div style="position: relative; padding-left: 5px;">
+                      <div style="position: absolute; top: 10px; left: 0; width: 100%; background: #fdcedf; height: 12px;"></div>
+                      <h3 class="font-italic font-weight-bold mb-0" style="font-variant: small-caps; letter-spacing: .5px; position: relative; z-index: 1;">
+                        <!--- character name and link to character --->
+                        <a href="LINK" style="color: #c88ea7;">Character Name</a>
+                      </h3>
+                      <!--- content --->
+                      <div class="text-right font-italic" style="color: #615c5d;">relationship</div>
+                    </div>
+                    <!--- relationship description --->
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eleifend tortor id odio porta cursus. Proin consectetur metus id dolor pharetra, a sollicitudin felis pharetra. In hac habitasse platea dictumst. Nam tempor placerat mattis.</p>
+                  </div>
+                </div>
+                <!--- end of relationship --->
+                <!--- divider ---><div class="p-1"></div>
+                <!--- relationship --->
+                <div class="row no-gutters m-n1">
+                  <div class="col-md-4 flex-column p-1">
+                    <!--- profile picture --->
+                    <div style="background-image: url('IMGURL'); background-size: cover; background-position: center; width: 120px; height: 120px; border: 2px solid #c88ea7; box-shadow: -.25rem .25rem #fdcedf;" class="mx-auto mt-auto mb-auto rounded-circle bg-dark"></div>
+                  </div>
+                  <div class="col-md-8 p-1">
+                    <div style="position: relative; padding-left: 5px;">
+                      <div style="position: absolute; top: 10px; left: 0; width: 100%; background: #fdcedf; height: 12px;"></div>
+                      <h3 class="font-italic font-weight-bold mb-0" style="font-variant: small-caps; letter-spacing: .5px; position: relative; z-index: 1;">
+                        <!--- character name and link to character --->
+                        <a href="LINK" style="color: #c88ea7;">Character Name</a>
+                      </h3>
+                      <!--- content --->
+                      <div class="text-right font-italic" style="color: #615c5d;">relationship</div>
+                    </div>
+                    <!--- relationship description --->
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eleifend tortor id odio porta cursus. Proin consectetur metus id dolor pharetra, a sollicitudin felis pharetra. In hac habitasse platea dictumst. Nam tempor placerat mattis.</p>
+                  </div>
+                </div>
+                <!--- end of relationship --->
+              </div>
+            </div>
+          </div>
+          <!--- end of tabs --->
+        </div>
+      </div>
+    
+    </div>
+    <div class="p-2"></div>
+    <div class="d-flex">
+      <!--- aesthetic images --->
+      <div style="background-image: url('IMGURL'); background-size: cover; background-position: center; min-height: 150px;" class="bg-dark flex-fill"></div>
+      <div style="background-image: url('IMGURL'); background-size: cover; background-position: center; min-height: 150px;" class="bg-dark flex-fill"></div>
+      <div style="background-image: url('IMGURL'); background-size: cover; background-position: center; min-height: 150px;" class="bg-dark flex-fill"></div>
+    </div>
+  </div>
+  <div class="text-center"><small>code by @8byte</small></div>
+</div>
