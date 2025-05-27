@@ -1,0 +1,143 @@
+<!-- RULES
+  -This code is free to use with/without credit 
+  -Feel free to frankenstein
+  -Under Images, Input IMAGE SOURCE LINKS in #. If it doesnt end in .png/.jpg/.gif etc it might not work
+  -Under Sources, link the post you got the images from in #
+-->
+
+
+<!-- THE WHOLE THING-->
+<div class="row">
+  <div class="col-lg-3 col-md-1 col-sm-0"></div>
+    <div class="card col-lg-6 col-md-10 col-sm-12 border-0 bg-faded text-center p-2">
+ <!--IMAGES SECTION
+      - Input IMAGE SOURCE/ADDRESS LINKS where # is 
+      - Images are listed in order of row, then left to right
+      - May squish slightly with format changes, but stay mostly square besides tiny screens/windows
+  -->
+  <!-- ROW 1-->
+      <div class="row p-2">
+  <!--IMAGE 1-->
+      <div class="col-4 p-2">
+    <img src=
+    "
+    #
+    " 
+    style="height:150px; width:150px;">
+      </div>
+  <!-- END IMAGE 1-->
+  <!-- IMAGE 2-->
+     <div class="col-4 p-2">
+    <img src=
+    "
+    #
+    "
+    style="height:150px; width:150px;">
+     </div>
+  <!-- END IMAGE 2-->
+  <!-- IMAGE 3-->
+     <div class="col-4 p-2">
+    <img src=
+    "
+    #
+    "
+    style="height:150px; width:150px;">
+     </div>
+  <!--END IMAGE 3-->
+    </div>
+<!--END ROW 1-->
+  <!--ROW 2-->
+  <div class="row p-2">
+  <!--IMAGE 1-->
+  <div class="col-4 p-2">
+    <img src=
+    "
+    #
+    " 
+    style="height:150px; width:150px;">
+  </div>
+  <!-- END IMAGE 1-->
+  <!-- IMAGE 2-->
+    <div class="col-4 p-2">
+    <img src=
+    "
+    #
+    "
+    style="height:150px; width:150px;">
+  </div>
+  <!-- END IMAGE 2-->
+  <!-- IMAGE 3-->
+  <div class="col-4 p-2">
+    <img src=
+    "
+    #
+    "
+    style="height:150px; width:150px;">
+  </div>
+  <!--END IMAGE 3-->
+</div>
+<!--END ROW 2-->
+  <!-- ROW 3 -->
+  <div class="row p-2">
+  <!--IMAGE 1-->
+  <div class="col-4 p-2">
+    <img src=
+    "
+    #
+    " 
+    style="height:150px; width:150px;">
+  </div>
+  <!-- END IMAGE 1-->
+  <!-- IMAGE 2-->
+    <div class="col-4 p-2">
+    <img src=
+    "
+    #
+    "
+    style="height:150px; width:150px;">
+  </div>
+  <!-- END IMAGE 2-->
+  <!-- IMAGE 3-->
+  <div class="col-4 p-2">
+    <img src=
+    "
+    #
+    "
+    style="height:150px; width:150px;">
+  </div>
+  <!--END IMAGE 3-->
+</div>
+<!--END ROW 3-->
+
+<!--SOURCES BUTTON-->
+<a href=#sources data-toggle=collapse class="btn border-0 btn-faded">SOURCES</a>
+
+<!--SOURCES COLLAPSE-->
+<div id="sources" class="collapse p-2">
+  
+    <!--SOURCES TEXT
+    - Input different credit links into every #
+    - Rows are separated by /
+    -->
+    <p class="text-center text-muted">
+  <a href="#"><i class="fas fa-star"></i></a>
+  <a href="#"><i class="fas fa-star"></i></a>
+  <a href="#"><i class="fas fa-star"></i></a>
+  /
+  <a href="#"><i class="fas fa-star"></i></a>
+  <a href="#"><i class="fas fa-star"></i></a>
+  <a href="#"><i class="fas fa-star"></i></a>
+  /
+  <a href="#"><i class="fas fa-star"></i></a>
+  <a href="#"><i class="fas fa-star"></i></a>
+  <a href="#"><i class="fas fa-star"></i></a>
+  </p>
+  </div>
+</div>
+<div class="col-lg-3 col-md-1 col-sm-0"></div>
+</div>
+ <!-- credit link, can remove if it bothers you -->
+<p class="text small text-center"><a href="https://toyhou.se/30425519.stimboard-code">
+  <i class="fas fa-paw tooltipster" title="OsiranCodes"></i></p>
+  <!--end credit link-->
+<!--CODE END-->
