@@ -41,11 +41,8 @@ REPLACE COLORS ACROSS THE CODE BY SELECTING THEM UNDER HERE, HITTING CTRL F, CLI
           <!--MUSIC PLAYER - insert first string of youtube video numbers after 'embed' -->
              <p class="p-2" style="background:#000000; color:#A0A0A4; font-family: 'Georgia', serif; font-weight: bold;"> <iframe frameborder="0" style="height:1rem;width:8rem;opacity:.001;position:absolute;"
     
-                src="https://www.youtube.com/embed/
-                
-                jNcAZsPQIt8
-                
-                "></iframe>
+                src="https://www.youtube.com/embed/jNcAZsPQIt8"></iframe>
+
                 <i class="fa-solid fa-record-vinyl fa-spin"></i>
                   SONG TITLE - ARTIST
               </p>
