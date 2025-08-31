@@ -1,0 +1,136 @@
+<!--- 
+CODE BY OSIRANCODES/DASHGRIFFIN (TH)
+SHORT AND SWEET CODE, STYLED AFTER GATEFOLD ALBUMS (BUT NOT PERFECTLY SQUARE. FEEL FREE TO REMAKE A COOLER ONE. THIS SERVES MY PURPOSES OF BEING MOBILE FRIENDLY.) COMPLETELY F2U.
+
+REPLACE COLORS ACROSS THE CODE BY SELECTING THEM UNDER HERE, HITTING CTRL F, CLICK 'ALL', THEN PASTE YOUR HEXCODE STRING
+
+        BORDER COLOR: #000000
+        TEXT BACKGROUND:#F9F9F9
+        TEXT ACCENT: #A0A0A4
+        TEXT COLOR: #153018
+
+       -->
+<!--CODE START-->
+<div>
+<!--LYRIC SET 1-->
+<h1 class="p-2 text-center" style="color:#A0A0A4; font-family: 'Georgia', serif; font-size: 1.75em; font-weight: bold;">  
+  
+         LOREM IPSUM DOLOR SIT AMET
+
+         </h1>
+<!--END LYRIC SET 1-->
+<!--BOX START -->
+<div class="row no-gutters">
+    <div class="col-lg-1 col-md-0 col-sm-0"></div>
+    
+    <!-- LEFT SECTION - COVER IMG + PAGEDOLL -->
+    <!-- COVER IMG URL-->
+    <div class="card p-0 rounded-0 col-md-6 col-lg-5 col-sm-12" style="background:url(
+    
+    https://placehold.co/400
+    
+    ); background-size:cover; border:none; min-height:400px; border: 2px solid #000000;">
+        <!-- PAGEDOLL, WORKS BEST w/TRANSPARENT IMGS -->
+          <div class="card border-0 bg-transparent" style="background-image: url(
+          
+          https://clipground.com/images/transparent-clip-art.png
+          
+          ); background-position: center; background-size: cover; height: 100%;"></div>
+          <!--END PAGEDOLL-->
+          
+          <!--MUSIC PLAYER - insert first string of youtube video numbers after 'embed' -->
+             <p class="p-2" style="background:#000000; color:#A0A0A4; font-family: 'Georgia', serif; font-weight: bold;"> <iframe frameborder="0" style="height:1rem;width:8rem;opacity:.001;position:absolute;"
+    
+                src="https://www.youtube.com/embed/
+                
+                jNcAZsPQIt8
+                
+                "></iframe>
+                <i class="fa-solid fa-record-vinyl fa-spin"></i>
+                  SONG TITLE - ARTIST
+              </p>
+             <!--END MUSIC PLAYER-->
+    </div>
+    <!--END LEFT SECTION-->
+<!--RIGHT SECTION-->
+     <div class="card p-0 rounded-0 col-md-6 col-lg-5 col-sm-12" style="height:400px; overflow:auto; border: 2px solid #000000; background: #F9F9F9; color:#153018;"> 
+     <!--NAME/HEADER-->
+     <div class="card rounded-0 p-0" style="border: 2px solid #000000; background:#000000">
+       <h1 class="p-2 text-center" style="color:#A0A0A4; font-family: 'Georgia', serif; font-size: 1.75em; font-weight: bold;">  
+          <!--DECOR 1--><i class="fa-sharp fas fa-star"></i>
+               NAME OF CHARACTER 
+          <!--DECOR 2--><i class="fa-sharp fas fa-star"></i>
+               </h1>
+               </div>
+         <!--END HEADER-->
+         
+         <!--INFO BOX-->
+		<div class="p-2" style="font-family: 'Georgia';">		
+		      <!--SPECIES-->
+				<div class="d-flex justify-content-between mb-1">
+											<span class="px-1" style="color:#A0A0A4; font-weight:bold;">Species</span>
+											<span class="pull-right text-right">SPECIES</span>
+											</div>
+	        	<!--END SPECIES-->
+              <!--GENDER-->
+				<div class="d-flex justify-content-between mb-1">
+											<span class="px-1" style="color:#A0A0A4; font-weight:bold;">Gender</span>
+											<span class="pull-right text-right">GENDER</span>
+											</div>
+	        	<!--END GENDER-->
+	        	        	
+	        <!--OCCUPATION-->
+				<div class="d-flex justify-content-between mb-1">
+											<span class="px-1" style="color:#A0A0A4; font-weight:bold;">Occupation</span>
+											<span class="pull-right text-right">JOB</span>
+											</div>
+	        	<!--END OCCUPATION-->
+	        <!--WORTH-->
+				<div class="d-flex justify-content-between mb-1">
+											<span class="px-1" style="color:#A0A0A4; font-weight:bold;">Worth</span>
+											<span class="pull-right text-right">$XX</span>
+											</div>
+	        	<!--END WORTH-->
+	        	<!--DIVIDER-->
+	        <div style="border:1px solid #000000;"></div>
+	        <!--END DIVIDER-->
+    	        <!--START CHARA BLURB-->
+    	       <p class="m-1">
+    	         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    	       </p>
+    	       <p class="m-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    	       </p>
+    	         <!--END CHARA BLURB-->
+
+     </div>
+       
+                   <!--CREDIT LINKS - INSERT LINK TO ARTIST OR IMG ORIGIN UNDER #-->
+              <p class="p-2 text-right">
+                <!--CODE CREDIT-->
+                <a href="https://toyhou.se/34961391.gatefold-code" style="color:#A0A0A4">
+                <i class="fas fa-paw tooltipster" title="Layout by OsiranCodes"></i></a>
+                <!--BACKGROUND CREDIT-->
+                  <a href="#" style="color:#A0A0A4">
+                <i class="fas fa-image tooltipster" title="Background by Placehold.co"></i></a>
+                <!--PAGEDOLL CREDIT-->
+                  <a href="#" style="color:#A0A0A4">
+                <i class="fas fa-person tooltipster" title="Pagedoll by Clipground.com"></i></a>
+                
+              </p>
+                <!--END CREDIT LINKS-->
+  
+     <!--END RIGHT SECTION-->
+      <div class="col-lg-1 col-md-0 col-sm-0"></div>
+      </div>
+<!--END BOX-->
+</div>
+<!--BOX END-->
+<!--LYRIC SET 2-->
+<h1 class="p-2 text-center" style="color:#A0A0A4; font-family: 'Georgia', serif; font-size: 1.75em; font-weight: bold;">  
+  
+         LOREM IPSUM DOLOR SIT AMET
+
+         </h1>
+<!--END LYRIC SET 2-->
+</div>
+<!--CODE END-->
